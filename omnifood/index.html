@@ -7,6 +7,11 @@
   <!-- Official Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
   <title>Omnifoods</title>
 </head>
 
@@ -35,18 +40,24 @@
     </nav>
   </header>
 
-  <section class="bg-[#fdf2e9] py-16">
+  <section class="bg-[#fdf2e9] py-20">
     <div class="grid grid-cols-[1fr,1fr] max-w-7xl mx-auto gap-20">
 
-      <div class="items-center">
+      <div class="items-center gap-20">
         <h1 class="text-6xl leading-1.5 color-[#555] font-bold">A healthy meal delivered to your door, every single day
         </h1>
         <p class="leading-1.5 text-xl my-10">The smart 365-days-per-year food subscription that will make you eat
           healthy
           again.
         </p>
-        <a href="#">Start eating well</a>
-        <a href="#">Learn more &darr;</a>
+        <a href="#"
+          class="bg-[#b8651b] text-white text-xl py-4 px-8 rounded-xl visited:bg-[#e67e22] visited:text-[#fff] hover:bg-[#cf711f] active:bg-[#cf711f]">Start
+          eating
+          well</a>
+        <a href="#"
+          class="bg-[#b8651b] text-white text-xl py-4 px-8 rounded-xl visited:bg-[#fff] visited:text-[#555] hover:bg-[#fdf2e9] hover:border-[3px] hover:border-white inset-shadow-sm inset-shadow-white active:text-[#555] ">Learn
+          more
+          &darr;</a>
       </div>
       <div><img class="w-full" src="img/hero.png" alt="Girl eating happy eating"></div>
 
