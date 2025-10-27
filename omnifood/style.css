@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 /* 
 *01 Typography System
@@ -36,7 +36,7 @@ Default: 1
 } */
 
 body {
-  font-family: 'Inter', 'Rubik', 'Roboto', sans-serif;
+  font-family: "Inter", "Rubik", "Roboto", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
