@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Official Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="icon" href="./img/favicon.png" type="image/x-icon"> THis line is for website ICON -->
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,55 +35,117 @@
             class="main-nav-link visited:inline-block decoration-0 font-semibold no-underline text-lg text-gray-700 transition-all duration-[300] active:text-[#b8651b] hover:text-[#b8651b]">Pricing</a>
         </li>
         <li><a href="#"
-            class="main-nav-link visited:inline-block decoration-0 font-semibold no-underline text-lg text-gray-700 transition-all duration-[300] active:text-[#b8651b] hover:text-[#b8651b]">Try
+            class="bg-[#b8651b] text-white text-xl py-2 px-4 rounded-xl mr-4 visited:bg-[#e67e22] visited:text-white hover:bg-[#cf711f] active:bg-[#cf711f] font-bold">Try
             for free</a></li>
       </ul>
     </nav>
   </header>
+  <main>
+    <!-- Header -->
+    <section class="bg-[#fdf2e9] pt-11 pb-24 h-screen">
+      <div class="grid grid-cols-[1fr,1fr] max-w-7xl gap-20 my-0 mx-auto items-center py-0 px-8">
 
-  <section class="bg-[#fdf2e9] py-20">
-    <div class="grid grid-cols-[1fr,1fr] max-w-7xl mx-auto gap-20">
-
-      <div class="items-center gap-20">
-        <h1 class="text-6xl leading-1.5 color-[#555] font-bold">A healthy meal delivered to your door, every single day
-        </h1>
-        <p class="leading-1.5 text-xl my-10">The smart 365-days-per-year food subscription that will make you eat
-          healthy
-          again.
-        </p>
-        <a href="#"
-          class="bg-[#b8651b] text-white text-xl py-4 px-8 rounded-xl mr-4 visited:bg-[#e67e22] visited:text-white hover:bg-[#cf711f] active:bg-[#cf711f] font-bold">Start
-          eating
-          well</a>
-        <a href="#"
-          class="bg-[#b8651b] text-white text-xl py-4 px-8 rounded-xl visited:bg-white visited:text-[#555] hover:bg-[#fdf2e9] hover:border-[3px] hover:border-white inset-shadow-sm inset-shadow-white active:text-[#555] font-bold ">Learn
-          more
-          &darr;</a>
-        <div class="flex mt-20 items-center gap-32">
-          <div class="flex w-11 ">
-            <img class="rounded-full -ml-4 border-4 border-solid border-white" src="img/customers/customer-1.jpg"
-              alt="Customer Image">
-            <img class="rounded-full -ml-4 border-4 border-solid border-white" src="img/customers/customer-2.jpg"
-              alt="Customer Image">
-            <img class="rounded-full -ml-4 border-2 border-solid border-white" src="img/customers/customer-3.jpg"
-              alt="Customer Image">
-            <img class="rounded-full -ml-4 border-2 border-solid border-white" src="img/customers/customer-4.jpg"
-              alt="Customer Image">
-            <img class="rounded-full -ml-4 border-2 border-solid border-white" src="img/customers/customer-5.jpg"
-              alt="Customer Image">
-            <img class="rounded-full -ml-4 border-2 border-solid border-white" src="img/customers/customer-6.jpg"
-              alt="Customer Images">
+        <div class="items-center gap-20">
+          <h1 class="text-5xl/tight text-[#555] font-bold">A healthy meal delivered to your door, every single
+            day
+          </h1>
+          <p class="leading-1.5 text-xl my-10">The smart 365-days-per-year food subscription that will make you eat
+            healthy
+            again.
+          </p>
+          <a href="#"
+            class="bg-[#b8651b] text-white text-xl py-4 px-8 rounded-xl mr-4 visited:bg-[#e67e22] visited:text-white hover:bg-[#cf711f] active:bg-[#cf711f] font-bold">Start
+            eating
+            well</a>
+          <a href="#"
+            class="bg-[#b8651b] text-white text-xl py-4 px-8 rounded-xl visited:bg-white visited:text-[#555] hover:bg-[#fdf2e9] hover:border-[3px] hover:border-white inset-shadow-sm inset-shadow-white active:text-[#555] font-bold ">Learn
+            more
+            &darr;</a>
+          <div class="flex mt-20 items-center gap-32">
+            <div class="flex w-11 ">
+              <img class="rounded-full -ml-4 border-2 border-solid border-white" src="img/customers/customer-1.jpg"
+                alt="Customer Image">
+              <img class="rounded-full -ml-4 border-2 border-solid border-white" src="img/customers/customer-2.jpg"
+                alt="Customer Image">
+              <img class="rounded-full -ml-4 border-2 border-solid border-white" src="img/customers/customer-3.jpg"
+                alt="Customer Image">
+              <img class="rounded-full -ml-4 border-2 border-solid border-white" src="img/customers/customer-4.jpg"
+                alt="Customer Image">
+              <img class="rounded-full -ml-4 border-2 border-solid border-white" src="img/customers/customer-5.jpg"
+                alt="Customer Image">
+              <img class="rounded-full -ml-4 border-2 border-solid border-white" src="img/customers/customer-6.jpg"
+                alt="Customer Images">
+            </div>
+            <p class="font-semibold"><span class="font-extrabold text-[#cf711f]">250,000+</span> meals delivered last
+              year!</p>
           </div>
-          <p class="font-semibold"><span class="font-extrabold text-[#cf711f]">250,000+</span> meals delivered last
-            year!</p>
+        </div>
+        <div><img class="w-full" src="img/hero.png" alt="Girl eating happy eating"></div>
+
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="py-24 px-28">
+      <div>
+        <span class="block text-base font-bold text-[#cf711f] uppercase mb-4 tracking-wider">How it works</span>
+        <h2 class="font-bold text-4xl text-[#555] mb-20">Your daily dose of health in 3 simple steps</h2>
+      </div>
+      <div class="grid grid-cols-2 gap-y-24 gap-x-16 items-center">
+        <div>
+          <!-- GRID Z pattern for website  -->
+          <!-- Step: 01 -->
+          <div>
+            <p class="text-7xl font-bold text-[#ddd] mb-3">01</p>
+            <h3 class="font-bold text-[#555] text-3xl/snug mb-7">
+              Tell us what you like (and what not)
+            </h3>
+            <p class="text-lg/relaxed">
+              Never again waste time thinking about what to eat! Omnifood AI
+              will create a 100% personalized weekly meal plan just for you. It
+              makes sure you get all the nutrients and vitamins you need, no
+              matter what diet you follow!
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex justify-center items-center before:content-[''] before:block before:w-[60%] before:pb-[60%] before:bg-[#fdf2e9] transform -translate-50% before:absolute before:rounded-full before:-z-20 after:w-[45%] after:content-[''] after:block after:pb-[45%] after:bg-[#f8d8bd] after:absolute after:rounded-full after:-z-10">
+          <img class="w-[35%]" src="./img/app/app-screen-1.png" alt="Home page mobile">
+        </div>
+        <!-- Step: 02 -->
+        <div
+          class="flex justify-center items-center before:content-[''] before:block before:w-[60%] before:pb-[60%] before:bg-[#fdf2e9] transform -translate-50% before:absolute before:rounded-full before:-z-20 after:w-[45%] after:content-[''] after:block after:pb-[45%] after:bg-[#f8d8bd] after:absolute after:rounded-full after:-z-10">
+          <img class="w-[35%]" src="./img/app/app-screen-2.png" alt="Like or Dislike food">
+        </div>
+        <div>
+          <p class="text-7xl font-bold text-[#ddd] mb-3">02</p>
+          <h3 class="font-bold text-[#555] text-3xl/snug mb-7">
+            Tell us what you like (and what not)
+          </h3>
+          <p>
+            Approve your weekly meal plan: Once per week, approve the meal plan generated for you by Omnifood AI. You
+            can change ingredients, swap entire meals, or even add your own recipes.
+          </p>
+        </div>
+        <!-- Step: 03 -->
+        <div>
+          <p class="text-7xl font-bold text-[#ddd] mb-3">03</p>
+          <h3 class="font-bold text-[#555] text-3xl/snug mb-7">
+
+            Tell us what you like (and what not)
+          </h3>
+          <p>
+            Receive meals at convenient time: Best chefs in town will cook your selected meal every day, and we will
+            deliver it to your door whenever works best for you. You can change delivery schedule and address daily!
+          </p>
+        </div>
+        <div
+          class="flex justify-center items-center before:content-[''] before:block before:w-[60%] before:pb-[60%] before:bg-[#fdf2e9] transform -translate-50% before:absolute before:rounded-full before:-z-20 after:w-[45%] after:content-[''] after:block after:pb-[45%] after:bg-[#f8d8bd] after:absolute after:rounded-full after:-z-10">
+          <img class="w-[35%]" src="./img/app/app-screen-3.png" alt="Order distance">
         </div>
       </div>
-      <div><img class="w-full" src="img/hero.png" alt="Girl eating happy eating"></div>
-
-    </div>
-  </section>
-  <!-- oct 29 -->
-  <!-- oct 30 -->
+    </section>
+  </main>
 </body>
 
 </html>
