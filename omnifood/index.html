@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <header class="header flex justify-between items-center bg-[#fdf2e9] h-24 px-14">
+  <header class="flex justify-between items-center bg-[#fdf2e9] h-24 px-14">
     <img class="h-6" src="img/omnifood-logo.png" alt="Omnifood Logo">
     <nav class="main-nav">
       <ul class="main-nav-list list-none flex gap-12 items-center">
@@ -54,11 +54,11 @@
             again.
           </p>
           <a href="#"
-            class="bg-[#b8651b] text-white text-xl py-4 px-8 rounded-xl mr-4 visited:bg-[#e67e22] visited:text-white hover:bg-[#cf711f] active:bg-[#cf711f] font-bold">Start
+            class="bg-[#b8651b] text-white text-xl py-4 px-8 rounded-xl mr-4 visited:bg-[#e67e22] visited:text-white hover:bg-[#cf711f] active:bg-[#cf711f] font-bold hover:transition-all">Start
             eating
             well</a>
           <a href="#"
-            class="bg-[#b8651b] text-white text-xl py-4 px-8 rounded-xl visited:bg-white visited:text-[#555] hover:bg-[#fdf2e9] hover:border-[3px] hover:border-white inset-shadow-sm inset-shadow-white active:text-[#555] font-bold ">Learn
+            class="bg-[#b8651b] text-white text-xl py-4 px-8 rounded-xl visited:bg-white visited:text-[#555] hover:bg-[#fdf2e9] hover:border-[3px] hover:border-white inset-shadow-sm inset-shadow-white active:text-[#555] font-bold hover:transition-all">Learn
             more
             &darr;</a>
           <div class="flex mt-20 items-center gap-32">
@@ -102,10 +102,12 @@
     <!-- HOW IT WORKS -->
     <section class="py-24 px-0">
       <div class="max-w-7xl my-0 mx-auto py-0 px-8">
+
         <div>
           <span class="block text-base font-bold text-[#cf711f] uppercase mb-4 tracking-wider">How it works</span>
           <h2 class="font-bold text-4xl text-[#555] mb-20">Your daily dose of health in 3 simple steps</h2>
         </div>
+
         <div class="grid grid-cols-2 gap-y-24 gap-x-16 items-center">
           <div>
             <!-- GRID Z pattern for website  -->
@@ -127,6 +129,7 @@
             class="flex justify-center items-center before:content-[''] before:block before:w-[60%] before:pb-[60%] before:bg-[#fdf2e9] transform -translate-50% before:absolute before:rounded-full before:-z-20 after:w-[45%] after:content-[''] after:block after:pb-[45%] after:bg-[#f8d8bd] after:absolute after:rounded-full after:-z-10">
             <img class="w-[35%]" src="./img/app/app-screen-1.png" alt="Home page mobile">
           </div>
+
           <!-- Step: 02 -->
           <div
             class="flex justify-center items-center before:content-[''] before:block before:w-[60%] before:pb-[60%] before:bg-[#fdf2e9] transform -translate-50% before:absolute before:rounded-full before:-z-20 after:w-[45%] after:content-[''] after:block after:pb-[45%] after:bg-[#f8d8bd] after:absolute after:rounded-full after:-z-10">
@@ -142,6 +145,7 @@
               can change ingredients, swap entire meals, or even add your own recipes.
             </p>
           </div>
+
           <!-- Step: 03 -->
           <div>
             <p class="text-7xl font-bold text-[#ddd] mb-3">03</p>
@@ -159,10 +163,134 @@
             <img class="w-[35%]" src="./img/app/app-screen-3.png" alt="Order distance">
           </div>
         </div>
+
+      </div>
+    </section>
+
+    <!-- MEALS SECTION -->
+    <section class="py-24 px-0">
+      <div class="max-w-7xl my-0 mx-auto py-0 px-8">
+
+        <div>
+          <span class="block text-sm font-bold text-[#cf711f] uppercase mb-4 tracking-wider text-center">Meals</span>
+          <h2 class="font-bold text-4xl text-[#333] mb-20 text-center">Omnifood AI chooses from 5,000+ recipes</h2>
+        </div>
+
+        <div class="max-w-7xl my-0 mx-auto py-0 px-8 mb-12">
+          <div class="grid grid-cols-3 gap-12 ">
+            <!-- first  card -->
+            <div
+              class="shadow-2xl rounded-2xl transform-gpu transition-transform duration-400 hover:-translate-y-4 hover:shadow-[0_30px_50px_rgba(0,0,0,0.25)]">
+
+              <img class="rounded-t-2xl" src="img/meals/meal-1.jpg" alt="Japanese Gyozas">
+
+              <div class="py-8 px-11 text-left">
+
+                <!-- Badges -->
+                <div class="flex gap-2 mb-3">
+                  <span
+                    class="inline-block px-2 py-0.5 uppercase bg-[#51cf66] text-xs rounded-full font-bold">Vegetarian</span>
+                </div>
+
+                <!-- Title -->
+                <p class="text-xl font-bold text-[#333] mb-5">Japanese Gyozas</p>
+
+                <!-- Nutrition list -->
+                <ul class="list-none flex flex-col gap-4">
+                  <li class="text-lg flex items-center gap-3">
+                    <ion-icon name="flame-outline" class="text-[#e67e22] text-2xl"></ion-icon>
+                    <div><strong>650</strong> Calories</div>
+                  </li>
+                  <li class="text-lg flex items-center gap-3">
+                    <ion-icon name="restaurant-outline" class="text-[#e67e22] text-2xl"></ion-icon>
+                    <div>NutriScore &reg; <strong>74</strong></div>
+                  </li>
+                  <li class="text-lg flex items-center gap-3">
+                    <ion-icon name="star-outline" class="text-[#e67e22] text-2xl"></ion-icon>
+                    <div><strong> 4.9</strong> rating (537)</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- second  card -->
+            <div
+              class="shadow-2xl rounded-2xl transform-gpu transition-transform duration-400 hover:-translate-y-4 hover:shadow-[0_30px_50px_rgba(0,0,0,0.25)]">
+
+              <img class="rounded-t-2xl" src="img/meals/meal-2.jpg" alt="Japanese Gyozas">
+
+              <div class="py-8 px-10 text-left">
+                <!-- Badges -->
+                <div class="flex gap-2 mb-3">
+                  <span class="px-2 py-0.5 uppercase bg-[#51cf66] text-xs rounded-full font-bold">Vegetarian</span>
+                  <span class="px-2 py-0.5 uppercase bg-[#ffd43b] text-xs rounded-full font-bold">Paleo</span>
+                </div>
+
+                <!-- Title -->
+                <p class="text-xl font-bold text-[#333] mb-5">Avocado Salad</p>
+
+                <!-- Nutrition List -->
+                <ul class="list-none flex flex-col gap-4">
+                  <li class="text-lg flex items-center gap-3">
+                    <ion-icon name="flame-outline" class="text-[#e67e22] text-2xl"></ion-icon>
+                    <div><strong> 400</strong> Calories</div>
+                  </li>
+
+                  <li class="text-lg flex items-center gap-3">
+                    <ion-icon name="restaurant-outline" class="text-[#e67e22] text-2xl"></ion-icon>
+                    <div>NutriScore &reg; <strong>92</strong></div>
+                  </li>
+
+                  <li class="text-lg flex items-center gap-3">
+                    <ion-icon name="star-outline" class="text-[#e67e22] text-2xl"></ion-icon>
+                    <div><strong> 4.8</strong> rating (441)</div>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-2xl/tight mb-8 font-bold text-black">Works with any diet:</h3>
+              <ul class="flex flex-col gap-4">
+                <li class="text-lg flex items-center gap-4"><ion-icon class="w-8 h-8 text-[#e67e22]"
+                    name="checkmark-outline"></ion-icon><span>Vegetarian</span>
+                </li>
+                <li class="text-lg flex items-center gap-4"><ion-icon class="w-8 h-8 text-[#e67e22]"
+                    name="checkmark-outline"></ion-icon><span>Vegan</span> </li>
+                <li class="text-lg flex items-center gap-4"><ion-icon class="w-8 h-8 text-[#e67e22]"
+                    name="checkmark-outline"></ion-icon><span>Pescatarian</span> </li>
+                <li class="text-lg flex items-center gap-4"><ion-icon class="w-8 h-8 text-[#e67e22]"
+                    name="checkmark-outline"></ion-icon><span>Gluten-free</span> </li>
+                <li class="text-lg flex items-center gap-4"><ion-icon class="w-8 h-8 text-[#e67e22]"
+                    name="checkmark-outline"></ion-icon><span>Lactose-free</span> </li>
+                <li class="text-lg flex items-center gap-4"><ion-icon class="w-8 h-8 text-[#e67e22]"
+                    name="checkmark-outline"></ion-icon><span>Keto</span> </li>
+                <li class="text-lg flex items-center gap-4"><ion-icon class="w-8 h-8 text-[#e67e22]"
+                    name="checkmark-outline"></ion-icon><span>Paleo</span> </li>
+                <li class="text-lg flex items-center gap-4"><ion-icon class="w-8 h-8 text-[#e67e22]"
+                    name="checkmark-outline"></ion-icon><span>Low
+                    FODMAP</span> </li>
+                <li class="text-lg flex items-center gap-4"><ion-icon class="w-8 h-8 text-[#e67e22]"
+                    name="checkmark-outline"></ion-icon><span>Kid-Friendly</span> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
 
+      <div class="max-w-7xl my-0 mx-auto py-0 px-8">
+
+        <div class="text-lg text-center">
+          <a class="text-[#e67e22] border-b border-solid border-current transition-all duration-300 hover:border-transparent hover:text-[#cf711f]"
+            href="#">See all
+            recipes &rarr;</a>
+        </div>
+      </div>
     </section>
   </main>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
